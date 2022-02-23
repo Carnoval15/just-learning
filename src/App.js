@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+
+function App(props) {
+  const subject = "yes";
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          well, hello {subject}
         </p>
         <a
           className="App-link"
