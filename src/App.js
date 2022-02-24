@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
-function Haha() {
-  return (
-    <p>yooooooo</p>
-  );
-}
+const navbar =  (
+  <nav>
+    <h1>Yoo site</h1>
+    <ul>
+      <li>home</li>
+      <li>about</li>
+      <li>contact</li>
+    </ul>
+  </nav>
+)
 
 function App(props) {
   const subject = "yes";
@@ -16,7 +21,7 @@ function App(props) {
         <p>
           well, hello {subject}
         </p>
-        <Haha />
+        navbar,
         <a
           className="App-link"
           href="https://reactjs.org"
