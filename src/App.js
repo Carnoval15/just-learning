@@ -1,16 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 
-const navbar =  (
-  <nav>
-    <h1>Yoo site</h1>
-    <ul>
-      <li>home</li>
-      <li>about</li>
-      <li>contact</li>
-    </ul>
-  </nav>
-)
+function navbar() {
+  return (
+    <nav>
+      <h1>Yoo site</h1>
+      <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>contact</li>
+      </ul>
+    </nav>
+  );
+}
 
 function App(props) {
   const subject = "yes";
