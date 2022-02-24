@@ -23,7 +23,7 @@ function App(props) {
         <p>
           well, hello {subject}
         </p>
-        navbar,
+        <navbar />
         <a
           className="App-link"
           href="https://reactjs.org"
