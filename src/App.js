@@ -1,17 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
-function navbar() {
-  return (
-    <nav>
-      <h1>Yoo site</h1>
-      <ul>
-        <li>home</li>
-        <li>about</li>
-        <li>contact</li>
-      </ul>
-    </nav>
-  );
+function Navbar()  {
+  <nav>
+    <h1>Yoo site</h1>
+    <ul>
+      <li>home</li>
+      <li>about</li>
+      <li>contact</li>
+    </ul>
+  </nav>
 }
 
 function App(props) {
@@ -23,7 +21,7 @@ function App(props) {
         <p>
           well, hello {subject}
         </p>
-        <navbar />
+        <Navbar />
         <a
           className="App-link"
           href="https://reactjs.org"
