@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+function Haha() {
+  return (
+    <p>yooooooo</p>
+  );
+}
 
 function App(props) {
   const subject = "yes";
@@ -11,6 +16,7 @@ function App(props) {
         <p>
           well, hello {subject}
         </p>
+        <Haha />
         <a
           className="App-link"
           href="https://reactjs.org"

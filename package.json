@@ -1,6 +1,5 @@
 {
-  "homepage": "https://carnoval15.github.io/just-learning/",
-  "homepage":"https://just-learning.vercel.app",
+  "homepage": "https://just-learning.vercel.app",
   "name": "just-learning",
   "version": "0.1.0",
   "private": true,
