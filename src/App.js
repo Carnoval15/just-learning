@@ -17,7 +17,7 @@ function App(props) {
         <p>
           well, hello {subject}
         </p>
-        Yes();
+        <Yes />
         <a
           className="App-link"
           href="https://reactjs.org"
