@@ -3,15 +3,8 @@ import './App.css';
 
 function Navbar() {
   return (
-    <nav>
-      <h1>Yoo site</h1>
-      <ul>
-        <li>home</li>
-        <li>about</li>
-        <li>contact</li>
-      </ul>
-    </nav>
-  );
+
+  )
 }
 
 function App(props) {
