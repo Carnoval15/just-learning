@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
-function Navbar() {
-  return (
-
+function Yes(){
+  return(
+    <div>
+      <h1>YESESYEYSEY</h1>
+    </div>
   )
 }
-
 function App(props) {
   const subject = "yes";
   return (
@@ -16,7 +17,7 @@ function App(props) {
         <p>
           well, hello {subject}
         </p>
-        <Navbar />
+        Yes();
         <a
           className="App-link"
           href="https://reactjs.org"
